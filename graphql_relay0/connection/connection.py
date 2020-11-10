@@ -1,6 +1,6 @@
 from collections import OrderedDict
 
-from graphql.type import (
+from graphql2.type import (
     GraphQLArgument,
     GraphQLBoolean,
     GraphQLInt,

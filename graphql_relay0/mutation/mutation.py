@@ -1,6 +1,6 @@
 from collections import OrderedDict
 from promise import Promise
-from graphql.type import (
+from graphql2.type import (
     GraphQLArgument,
     GraphQLInputObjectField,
     GraphQLInputObjectType,
@@ -9,7 +9,7 @@ from graphql.type import (
     GraphQLString,
     GraphQLField,
 )
-from graphql.error import GraphQLError
+from graphql2.error import GraphQLError
 from ..utils import resolve_maybe_thunk
 
 

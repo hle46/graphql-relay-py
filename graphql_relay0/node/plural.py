@@ -1,6 +1,6 @@
 from collections import OrderedDict
 from promise import Promise
-from graphql.type import (
+from graphql2.type import (
     GraphQLArgument,
     GraphQLList,
     GraphQLNonNull,

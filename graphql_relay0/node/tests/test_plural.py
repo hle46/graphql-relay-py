@@ -1,7 +1,7 @@
 from collections import namedtuple
 from pytest import raises
-from graphql import graphql
-from graphql.type import (
+from graphql2 import graphql
+from graphql2.type import (
     GraphQLSchema,
     GraphQLObjectType,
     GraphQLField,
@@ -14,7 +14,7 @@ from graphql.type import (
     GraphQLID,
 )
 
-from graphql_relay.node.plural import plural_identifying_root_field
+from graphql_relay0.node.plural import plural_identifying_root_field
 
 userType = GraphQLObjectType(
     'User',

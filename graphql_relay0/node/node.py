@@ -1,9 +1,9 @@
 from collections import OrderedDict
-from graphql_relay.utils import base64, unbase64
+from graphql_relay0.utils import base64, unbase64
 
 from six import text_type
 
-from graphql.type import (
+from graphql2.type import (
     GraphQLArgument,
     GraphQLNonNull,
     GraphQLID,

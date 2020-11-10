@@ -1,5 +1,5 @@
 from pytest import raises
-from graphql import graphql
+from graphql2 import graphql
 
 from .schema import StarWarsSchema
 

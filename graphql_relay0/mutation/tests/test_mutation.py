@@ -1,8 +1,8 @@
 from collections import OrderedDict
 
 from promise import Promise
-from graphql import graphql
-from graphql.type import (
+from graphql2 import graphql
+from graphql2.type import (
     GraphQLSchema,
     GraphQLObjectType,
     GraphQLInt,
@@ -10,7 +10,7 @@ from graphql.type import (
     GraphQLInputObjectField
 )
 
-from graphql_relay.mutation.mutation import (
+from graphql_relay0.mutation.mutation import (
     mutation_with_client_mutation_id,
 )
 

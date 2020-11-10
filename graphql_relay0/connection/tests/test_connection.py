@@ -1,7 +1,7 @@
 from collections import namedtuple
 from pytest import raises
-from graphql import graphql
-from graphql.type import (
+from graphql2 import graphql
+from graphql2.type import (
     GraphQLSchema,
     GraphQLObjectType,
     GraphQLField,

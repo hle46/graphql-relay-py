@@ -1,6 +1,6 @@
 from collections import namedtuple
 
-from graphql.type import (
+from graphql2.type import (
     GraphQLID,
     GraphQLNonNull,
     GraphQLObjectType,
@@ -10,22 +10,22 @@ from graphql.type import (
     GraphQLField
 )
 
-from graphql_relay.node.node import (
+from graphql_relay0.node.node import (
     node_definitions,
     global_id_field,
     from_global_id
 )
 
-from graphql_relay.connection.arrayconnection import (
+from graphql_relay0.connection.arrayconnection import (
     connection_from_list
 )
 
-from graphql_relay.connection.connection import (
+from graphql_relay0.connection.connection import (
     connection_args,
     connection_definitions
 )
 
-from graphql_relay.mutation.mutation import (
+from graphql_relay0.mutation.mutation import (
     mutation_with_client_mutation_id
 )
 

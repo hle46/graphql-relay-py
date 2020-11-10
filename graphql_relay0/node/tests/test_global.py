@@ -1,6 +1,6 @@
 from collections import namedtuple
-from graphql import graphql
-from graphql.type import (
+from graphql2 import graphql
+from graphql2.type import (
     GraphQLSchema,
     GraphQLObjectType,
     GraphQLField,
@@ -9,7 +9,7 @@ from graphql.type import (
     GraphQLString,
 )
 
-from graphql_relay.node.node import (
+from graphql_relay0.node.node import (
     from_global_id,
     global_id_field,
     node_definitions,
