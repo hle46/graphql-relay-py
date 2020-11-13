@@ -30,7 +30,7 @@ packages = [
 
 [tool.poetry.dependencies]
 python = "^3.6"
-# graphql-core = "^3.0"
+graphql-core3 = "*"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.3"
