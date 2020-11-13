@@ -8,7 +8,7 @@ with open("README.md") as readme_file:
     readme = readme_file.read()
 
 setup(
-    name="graphql-relay",
+    name="graphql-relay3",
     version=version,
     description="Relay library for graphql-core-next",
     long_description=readme,
@@ -29,7 +29,7 @@ setup(
         "Programming Language :: Python :: 3.8",
         "Programming Language :: Python :: Implementation :: PyPy",
     ],
-    install_requires=["graphql-core>=3.0.0a0"],
+    install_requires=["graphql-core3"],
     python_requires=">=3.6,<4",
     packages=find_packages("src"),
     package_dir={"": "src"},
